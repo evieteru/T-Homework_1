@@ -13,8 +13,8 @@ public class Homework_1 {
 		// Using array
 		System.out.println("Using array iteration:");
 		
-		String[] names = {"Thomas Quan", "Alyssa Shaefer", "Evie Wilbur", "Wen-Hsin Chen"};
-		String[] githubIDs = {"Tmqrdc", "AlyssaRShaefer", "evieteru", "23wc01"};
+		String[] names = {"Thomas Quan", "Alyssa Schaefer", "Evie Wilbur", "Wen-Hsin Chen"};
+		String[] githubIDs = {"NhutQuan03", "AlyssaRSchaefer", "evieteru", "23wc01"};
 		
 		for (int i =0; i < names.length; ++i) {
 			System.out.println(names[i] + " - " + githubIDs[i]);
@@ -25,8 +25,8 @@ public class Homework_1 {
 		// Using HashMap
 		System.out.println("\nUsing (unordered) HashMap iteration:");
 		HashMap<String, String> namesAndIDs = new HashMap<>();
-		namesAndIDs.put("Thomas Quan", "Tmqrdc");
-		namesAndIDs.put("Alyssa Shaefer", "AlyssaRShaefer");
+		namesAndIDs.put("Thomas Quan", "NhutQuan03");
+		namesAndIDs.put("Alyssa Schaefer", "AlyssaRSchaefer");
 		namesAndIDs.put("Evie Wilbur", "evieteru");
 		namesAndIDs.put("Wen-Hsin Chen", "23wc01");
 		
